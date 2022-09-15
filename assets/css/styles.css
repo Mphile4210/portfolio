@@ -1,0 +1,436 @@
+.carousel{
+  position:relative;
+  margin:auto;
+  padding:40px;
+  border-width:20px;
+}
+
+p{
+  margin:0 0 11px;
+  font-family:sans-serif;
+}
+
+.container.info{
+  margin-right:auto;
+  margin-left:auto;
+}
+
+#logo{
+  max-height:28px;
+  max-width:50px;
+  margin-right:10px;
+  margin-top:-3px;
+  display:inline-block;
+}
+
+i.fa.fa-desktop{
+  font-size:40px;
+  padding:20px;
+  border:1px solid #23272c;
+  border-radius:50%;
+}
+
+i.fa.fa-tablet{
+  font-size:40px;
+  padding:20px;
+  border:1px solid #23272c;
+  border-radius:50%;
+}
+
+i.fa.fa-line-chart{
+  font-size:40px;
+  padding:20px;
+  border:1px solid #23272c;
+  border-radius:50%;
+}
+
+i.material-icons{
+  font-size:40px;
+  padding:20px;
+  border:1px solid #23272c;
+  border-radius:50%;
+}
+
+.container.skills{
+  margin-right:auto;
+  margin-left:auto;
+  padding-left:15px;
+  padding-right:15px;
+  text-align:center;
+  width:100%;
+}
+
+.row{
+  margin-right:-15px;
+  margin-left:-15px;
+}
+
+skills.row.services{
+  background:#23272c;
+}
+
+#support.row.services{
+  margin-top:40px;
+}
+
+i.fa.fa-wrench{
+  font-size:40px;
+  padding:20px;
+  border:1px solid #23272c;
+  border-radius:50%;
+}
+
+div#support.row.services p{
+  font-size:14px;
+  margin-top:20px;
+}
+
+section#services{
+  margin-top:40px;
+}
+
+div.container.skills{
+  background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../../assets/img/city_bg.jpg);
+  background-size:cover;
+  background-position:center;
+  color:#efefef !important;
+  background-attachment:fixed;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+div.container.skills h1::after{
+  content:'';
+  background:#efefef;
+  display:block;
+  height:3px;
+  width:170px;
+  margin:20px auto 5px;
+}
+
+div#support.row.services{
+  text-decoration-color:#f9fafb;
+}
+
+.navbar{
+  position:sticky;
+  min-height:50px;
+  margin-bottom:20px;
+  border:1px solid transparent;
+  top:0;
+}
+
+div.container.skills .col-md-3:hover{
+  background:#007bff;
+  cursor:pointer;
+  transition:0.7s;
+}
+
+section#team{
+  padding-top:50px;
+  padding-bottom:50px;
+  color:#555;
+}
+
+#team h1{
+  text-align:center;
+  color:#555 !important;
+  padding-bottom:10px;
+}
+
+h1::after{
+  content:'';
+  background:#007bff;
+  display:block;
+  height:3px;
+  width:170px;
+  margin:20px auto 5px;
+}
+
+div.col-md-3.profile-pic{
+  margin-top:25px;
+}
+
+div.img-box{
+  opacity:1;
+  display:block;
+  position:relative;
+}
+
+.profile-pic .img-box img:hover{
+  filter:grayscale(0);
+  cursor:pointer;
+}
+
+.profile-pic h2{
+  font-size:22px;
+  font-weight:bold;
+  margin-top:15px;
+  color:#007bff !important;
+}
+
+.profile-pic h3{
+  font-size:15px;
+  font-weight:bold;
+  margin-top:15px;
+}
+
+#team .fa{
+  height:25px;
+  width:25px;
+  color:#007bff !important;
+  background:#fff;
+  padding:4px;
+  border-radius:50%;
+}
+
+.img-box ul{
+  padding:15px 0;
+  position:absolute;
+  z-index:2;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%);
+  opacity:0;
+}
+
+.img-box ul li{
+  padding:5px;
+  display:inline-block;
+}
+
+.img-box:hover ul{
+  opacity:1;
+}
+
+.img-box ul, .img-box ul li{
+  transition:0.5s;
+}
+
+#promo{
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../../assets/img/hero-background-technology.jpg);
+  background-size:cover;
+  background-position:center;
+  color:#fff;
+  background-attachment:fixed;
+  text-align:center;
+  font-family:sans-serif;
+  font-size:38px;
+  padding:100px;
+}
+
+#footer{
+}
+
+#footer h1{
+  text-align:center;
+}
+
+div.col-md-6 h1{
+  text-align:center;
+}
+
+img{
+  position:relative;
+}
+
+div.col-md-6{
+}
+
+.col-md-6 .pp{
+  padding-bottom:50px;
+  margin-top:50px;
+  text-align:center;
+}
+
+div#summary.container{
+  text-align:center;
+}
+
+#price{
+  padding:40px 0;
+  background:#efefef;
+}
+
+#price h1{
+  padding:40px 0;
+  background:#efefef;
+  font-size:40px;
+}
+
+.single-price{
+  margin:10px auto;
+  display:inline;
+  float:left;
+  width:100%;
+  background-color:#fff;
+  transition:0.5s;
+}
+
+.single-price:hover{
+  box-shadow:0 2px 20px #333;
+}
+
+.price-head{
+  background-color:#2196f3;
+  display:inline;
+  float:left;
+  padding:10px 5px;
+  text-align:center;
+  width:100%;
+}
+
+.price-head h2{
+  color:#fff;
+  font-size:30px;
+  font-weight:bold;
+  margin-bottom:5px;
+  padding:5px;
+  text-transform:uppercase;
+}
+
+.price-head p{
+  font-size:25px;
+  color:#ccc;
+  font-weight:bold;
+  line-height:30px;
+}
+
+#price span{
+  font-size:15px;
+}
+
+#price-content{
+  display:inline;
+  float:left;
+  width:100%;
+  padding:0 15px;
+}
+
+.price-content ul li{
+  border-bottom:1px solid #efefef;
+  padding:15px 10px;
+  list-style:none;
+}
+
+ul li:last{
+}
+
+i.fa.fa-check{
+  color:green;
+}
+
+i.fa.fa-times{
+  color:red;
+}
+
+.price-button{
+  display:inline;
+  float:left;
+  padding:15px 15px 30px;
+  text-align:center;
+  width:100%;
+}
+
+a.btn.btn-primary{
+  background-color:#2196f3;
+  border-radius:3px;
+  display:inline-block;
+  font-size:18px;
+  padding:15px 50px;
+  transition:0.5s;
+}
+
+a.btn.btn-primary:hover{
+  border-color:1px;
+  border-color:1px solid #fff;
+  background-color:#3f51b5;
+}
+
+a{
+  text-decoration:none!important;
+  color:#fff!important;
+}
+
+#testimonials{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+#testimonials h1{
+  font-size:40px;
+}
+
+#testimonials p{
+  font-size:20px;
+}
+
+#testimonials .row{
+  margin-top:30px;
+}
+
+#testimonials .col-md-4{
+  margin:40px auto;
+}
+
+.profile{
+  padding:70px 10px  10px;
+  background-color:#efefef;
+}
+
+.profile img{
+  top:-60px;
+  position:absolute;
+  left:calc(50% - 60px);
+  border:10px solid #fff;
+}
+
+.user{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+}
+
+.profile h3{
+  font-size:20px;
+  margin-top:15px;
+  color:#007bff;
+}
+
+blockquote{
+  font-size:14px;
+  line-height:30px;
+}
+
+blockquote::before{
+  content:'\93';
+  font-size:50px;
+  color:#007bff;
+  position:relative;
+  line-height:20px;
+  bottom:-15px;
+  right:5px;
+}
+
+blockquote::after{
+  content:'\94';
+  font-size:50px;
+  color:#007bff;
+  position:relative;
+  line-height:10px;
+  bottom:-15px;
+  left:5px;
+}
+
+.profile:hover{
+  box-shadow:0 0 15px 5px rgba(0,0,0,0.2);
+  cursor:pointer;
+  transition:0.5s;
+}
+
+img.img-circle{
+  width:400px;
+  font-size:60%;
+  height:300px;
+}
+
